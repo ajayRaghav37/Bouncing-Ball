@@ -1,0 +1,66 @@
+/*1352692751,173214271*/
+
+em.intl-sandbox{font-style:normal}
+.deltoidTableView .colorLegend{float:right}
+.deltoidTableView .colorLegend td{font-size:13px;font-weight:bold;text-align:center;width:60px}
+.deltoidTableView .inputarea,
+.deltoidTableView .tokenarea{width:535px}
+.deltoidTableView .deltoidTable th{background:#eee;padding-right:0;white-space:normal}
+.deltoidTableView .metricCol{max-width:80px}
+.deltoidTableView .metricCol .columnLabel{padding-right:0;white-space:normal;width:80%;word-wrap:break-word}
+.deltoidTableView .negVeryLight{background:#ffe5e5}
+.deltoidTableView .negLight{background:#fcc}
+.deltoidTableView .negMedium{background:#ffb2b2;color:#fff}
+.deltoidTableView .negDark{background:#f66;color:#fff
+}
+.deltoidTableView .negVeryDark{background:#f00;color:#fff
+}
+.deltoidTableView .posVeryLight{background:#cfc}
+.deltoidTableView .posLight{background:#9f9}
+.deltoidTableView .posMedium{background:#6f6}
+.deltoidTableView .posDark{background:#76ee00}
+.deltoidTableView .posVeryDark{background:#00cd00}
+.deltoidTableView .uiDataTable td{padding:3px 0
+}
+
+.uiStructuredInput{border:1px solid #999;overflow:hidden;position:relative}
+.uiStructuredInput .structuredText, .uiStructuredInput .structuredRich, .uiStructuredInput .structuredHint, .uiStructuredInput .structuredPlaceholder{border:0;color:#333;outline:none;padding:3px;position:relative;z-index:1}
+.uiStructuredInput .structuredRich, .uiStructuredInput .structuredHint, .uiStructuredInput .structuredPlaceholder{overflow:auto;white-space:pre-wrap}
+.uiStructuredInput .structuredHint, .uiStructuredInput .structuredPlaceholder{left:0;position:absolute;right:0;top:0;z-index:0}
+.uiStructuredInput .structuredPlaceholder{color:#777}
+.uiStructuredInput.child_is_focused .structuredPlaceholder{color:#999}
+.uiStructuredInput .structuredHint{color:transparent}
+.uiStructuredInput .structuredHint .hintSuffix{color:#999}
+.uiStructuredInput .structuredRich{cursor:text}
+.uiStructuredInput .structuredText{width:100%}
+.uiStructuredInput .structuredRich br{display:none}
+.uiStructuredInput.singleline{height:20px}
+.uiStructuredInput.singleline .structuredText, .uiStructuredInput.singleline .structuredRich, .uiStructuredInput.singleline .structuredHint, .uiStructuredInput.singleline .structuredPlaceholder{overflow:hidden;white-space:pre}
+.ff4 .uiStructuredInput.singleline .structuredRich{height:100px;overflow-x:auto}
+.sp_11hjs9{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/y8/x/7kB1qZlBm4I.png);background-size:auto;background-repeat:no-repeat;display:inline-block;height:12px;width:12px}
+.sx_ac7f82{width:32px;height:32px;background-position:0 -153px}
+.sx_7ae36d{background-position:-13px -186px}
+.selected .sx_7ae36d{background-position:0 -186px}
+.sx_e3d3a7{background-position:-13px -199px}
+.selected .sx_e3d3a7{background-position:0 -199px}
+.sx_cc7eb4{background-position:-38px -186px}
+.selected .sx_cc7eb4{background-position:-26px -186px}
+.sx_536748{width:6px;height:11px;background-position:-39px -153px}
+.selected .sx_536748{background-position:-33px -153px}
+.sx_54b317{width:9px;height:5px;background-position:-33px -165px}
+.sx_802de5{width:50px;height:50px;background-position:0 0}
+.sx_926e12{width:50px;height:50px;background-position:0 -51px}
+.sx_e5ee0b{width:50px;height:50px;background-position:0 -102px}
+.sp_4j9fxn{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yA/x/IpE94m-vffe.png);background-size:auto;background-repeat:no-repeat;display:inline-block;height:32px;width:32px}
+.sx_119331{background-position:0 -118px}
+.sx_46f314{background-position:0 -151px}
+.sx_823afa{background-position:0 -184px}
+.sx_246a61{background-position:0 -217px}
+.sx_bfa760{background-position:0 -250px}
+.sx_0766fd{background-position:0 -283px}
+.sx_27c836{width:57px;height:49px;background-position:0 0}
+.sx_01eb8a{width:33px;height:33px;background-position:0 -50px}
+.sx_600868{width:33px;height:33px;background-position:0 -84px}
+.mouseEventsDisabled .MicrosoftMap{cursor:default !important}
+
+#bootloader_El6LV { height: 42px; }

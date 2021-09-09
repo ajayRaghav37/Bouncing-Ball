@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Expires" content="Wed, 03 Jun 1998 16:00:00 GMT"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Cache-Control" content="no-store"><style type="text/css">
+		body,div,iframe,embed,object {padding: 0;margin: 0;border: none;font-size: 12px;font-family: arial, sans-serif;background-color: #000}
+		#adaptvCompanionAd {height: auto; width: auto; float: right; margin-top: 65px; margin-right: 85px}
+		#adaptvPlayerContainer {width: 390px; height: 355px; float: right; margin-right: 20px; margin-top: 20px}
+	</style><script type="text/javascript">
+		function getUrlParam(paramName) {
+			var searchString = window.location.search.substring(1),
+				i, val, params = searchString.split("&");
+
+			for(i=0;i<params.length;i++) {
+				val = params[i].split("=");
+				if(val[0] == paramName) {
+					return unescape(val[1]).replace(/\+/g, " ").replace(/\\'/g, "'").replace(/\\"/g, '"');
+				}
+			}
+		    
+		    return null;
+		}           
+		           
+		function getEl(id) {
+		  if (document.getElementById) {
+		    return document.getElementById(id);
+		  } else if (document.all) {
+		    return document.all[id];
+		  } else if (document.layers) {
+		    return document.layers[id];
+		  }
+		  return null;
+		}
+		
+		function removeAllChildren(elem) {
+		  var child;
+		  while (child = elem.firstChild) {
+		    elem.removeChild(child);
+		  }
+		}
+		
+		function callbacks_gotoContent() {
+		  removeAllChildren(getEl("adaptvCompanionAd"));
+		  removeAllChildren(getEl("adaptvPlayerContainer"));
+		  window.parent.hideHTMLAdHandler();
+		}
+		
+    </script><style media="screen" type="text/css">#swfContainer {visibility:hidden}</style><script src="adaptv-iframe_data/adaptvInfo.js" type="text/javascript"></script></head><body><div style="text-align: center; width: 100%"><div style="overflow: hidden"><div id="adaptvCompanionAd"></div><div id="adaptvPlayerContainer"></div></div></div><script src="adaptv-iframe_data/swfobject.js"></script><script>
+		var flashvars = {
+			//key: "integration_test",
+			key: "mindjoltinc",
+			zid: "default",
+			adaptag: "partner1, tag1",
+			companionId: "adaptvCompanionAd",
+			videoPlayerId: "adaptvPlayerContainer",
+			ctx_mjsite: "web",
+			ctx_da: "0",
+			ctx_dg: "0",
+			id: getUrlParam("id"),
+			title: getUrlParam("title"),
+			duration: "100",
+			description: getUrlParam("description"),
+			keywords: getUrlParam("tags") ? getUrlParam("tags") : "flash,games",
+			categories: getUrlParam("channels"),
+			width: "390",
+			height: "312",
+			callbackObjName: "callbacks",
+			playerId: "adaptvPlayer"
+		};
+		
+		var params = {
+			bgcolor: "#000000",
+			quality: "high",
+			allowscriptaccess: "always",
+			allowfullscreen: "true",
+			wmode: "opaque"
+		};
+		
+		var attributes = {
+			id: "adaptvPlayer",
+			name: "adaptvPlayer"
+		};
+
+		swfobject.embedSWF("http://cache.mindjolt.com/static/flash/AdaptvClient.swf?v=40", "swfContainer", "390", "355", "9.0.0", null, flashvars, params, attributes);
+
+	</script></body></html>

@@ -1,0 +1,320 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="BouncingBall.MainPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BouncingBall"
+    xmlns:common="using:BouncingBall.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+
+        <!-- Back button and page title -->
+        <!--<Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>-->
+        <Grid x:ConnectionId='1' Background="{StaticResource ApplicationPageBackgroundThemeBrush}" x:Name="Grid1"                                                                             Width="1024" HorizontalAlignment="Center" Height="768"     >
+            <Rectangle x:Name="Launcher" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Margin="308.138,752.898,0,-15.898" Stroke="Black" VerticalAlignment="Top" Width="415.627" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <Rectangle.RenderTransform>
+                    <CompositeTransform Rotation="32.119"/>
+                </Rectangle.RenderTransform>
+             
+            </Rectangle>
+            <Rectangle x:Name="L1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="716" Margin="119,86,0,-34" Stroke="Black" VerticalAlignment="Top" Width="10" Visibility="Collapsed"/>
+            <Grid x:Name="ALLBALLS">
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-650,3540,0,-2827" x:Name="Ball88" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-650,3540,0,-2827" x:Name="Ball0" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1360,3640,0,-2927" x:Name="Ball1" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,3640,0,-2927" x:Name="Ball2" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1690,3540,0,-2827" x:Name="Ball3" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-545,3450,0,-2737" x:Name="Ball4" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1565,3730,0,-3017" x:Name="Ball5" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1060,3540,0,-2827" x:Name="Ball6" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1165,3340,0,-2627" x:Name="Ball7" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1260,3540,0,-2827" x:Name="Ball8" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1165,3640,0,-2927" x:Name="Ball9" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,3730,0,-3017" x:Name="Ball10" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1565,3640,0,-2927" x:Name="Ball11" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,3340,0,-2627" x:Name="Ball12" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-545,3930,0,-3217" x:Name="Ball13" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1165,3450,0,-2737" x:Name="Ball14" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1755,3730,0,-3017" x:Name="Ball15" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1275,3450,0,-2737" x:Name="Ball16" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-740,3450,0,-2737" x:Name="Ball17" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-545,3730,0,-3017" x:Name="Ball18" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,3930,0,-3217" x:Name="Ball19" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-740,3640,0,-2927" x:Name="Ball20" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1480,3540,0,-2827" x:Name="Ball26" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1460,3840,0,-3127" x:Name="Ball23" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-650,3840,0,-3127" x:Name="Ball28" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1060,3930,0,-3217" x:Name="Ball41" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-650,3730,0,-3017" x:Name="Ball32" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1260,3735,0,-3022" x:Name="Ball24" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1670,3735,0,-3022" x:Name="Ball22" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1360,3340,0,-2627" x:Name="Ball30" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1590,3450,0,-2737" x:Name="Ball21" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1060,3735,0,-3022" x:Name="Ball25" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,3840,0,-3127" x:Name="Ball27" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-650,3930,0,-3217" x:Name="Ball35" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-960,3840,0,-3127" x:Name="Ball38" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1165,3840,0,-3127" x:Name="Ball42" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-620,3340,0,-2627" x:Name="Ball37" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1460,3930,0,-3217" x:Name="Ball39" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,3540,0,-2827" x:Name="Ball33" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,3450,0,-2737" x:Name="Ball36" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1460,3730,0,-3017" x:Name="Ball34" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1260,3930,0,-3217" x:Name="Ball40" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1690,3930,0,-3217" x:Name="Ball31" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1480,3450,0,-2737" x:Name="Ball29" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-740,3540,0,-2827" x:Name="Ball53" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1480,3640,0,-2927" x:Name="Ball62" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1060,3640,0,-2927" x:Name="Ball64" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1690,3450,0,-2737" x:Name="Ball68" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-520,3340,0,-2627" x:Name="Ball57" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1565,3840,0,-3127" x:Name="Ball46" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1165,3540,0,-2827" x:Name="Ball52" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1260,3340,0,-2627" x:Name="Ball51" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1360,3540,0,-2827" x:Name="Ball49" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1260,3640,0,-2927" x:Name="Ball63" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,3730,0,-3017" x:Name="Ball72" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-545,3540,0,-2827" x:Name="Ball59" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1060,3340,0,-2627" x:Name="Ball55" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-740,3930,0,-3217" x:Name="Ball77" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-710,3340,0,-2627" x:Name="Ball83" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1735,3340,0,-2627" x:Name="Ball82" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1360,3450,0,-2737" x:Name="Ball56" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,3450,0,-2737" x:Name="Ball84" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-515,3640,0,-2927" x:Name="Ball85" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-960,3930,0,-3217" x:Name="Ball76" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,3640,0,-2927" x:Name="Ball65" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-650,3450,0,-2737" x:Name="Ball48" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1615,3540,0,-2827" x:Name="Ball45" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-740,3840,0,-3127" x:Name="Ball74" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1165,3930,0,-3217" x:Name="Ball81" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-740,3735,0,-3022" x:Name="Ball66" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1360,3735,0,-3022" x:Name="Ball69" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1670,3640,0,-2927" x:Name="Ball44" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1460,3340,0,-2627" x:Name="Ball50" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1640,3340,0,-2627" x:Name="Ball43" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1165,3735,0,-3022" x:Name="Ball71" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1060,3840,0,-3127" x:Name="Ball73" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1690,3840,0,-3127" x:Name="Ball67" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1260,3840,0,-3127" x:Name="Ball78" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1360,3840,0,-3127" x:Name="Ball70" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-810,3340,0,-2627" x:Name="Ball60" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1565,3930,0,-3217" x:Name="Ball79" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,3540,0,-2827" x:Name="Ball54" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1060,3450,0,-2737" x:Name="Ball58" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-620,3640,0,-2927" x:Name="Ball61" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1360,3930,0,-3217" x:Name="Ball80" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-545,3840,0,-3127" x:Name="Ball75" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1540,3340,0,-2627" x:Name="Ball47" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-430,4370,0,-3657" x:Name="Ball121" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1140,4470,0,-3757" x:Name="Ball126" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-725,4470,0,-3757" x:Name="Ball130" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1470,4370,0,-3657" x:Name="Ball111" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-325,4280,0,-3567" x:Name="Ball110" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1345,4560,0,-3847" x:Name="Ball137" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,4370,0,-3657" x:Name="Ball117" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,4170,0,-3457" x:Name="Ball92" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1040,4370,0,-3657" x:Name="Ball115" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,4470,0,-3757" x:Name="Ball128" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-620,4560,0,-3847" x:Name="Ball144" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1345,4470,0,-3757" x:Name="Ball124" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-725,4170,0,-3457" x:Name="Ball94" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,4280,0,-3567" x:Name="Ball104" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1535,4560,0,-3847" x:Name="Ball135" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1055,4280,0,-3567" x:Name="Ball103" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-520,4280,0,-3567" x:Name="Ball108" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-325,4560,0,-3847" x:Name="Ball147" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-520,4470,0,-3757" x:Name="Ball132" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1260,4370,0,-3657" x:Name="Ball113" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1240,4670,0,-3957" x:Name="Ball150" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-430,4560,0,-3847" x:Name="Ball146" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1040,4565,0,-3852" x:Name="Ball140" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1450,4565,0,-3852" x:Name="Ball136" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1140,4170,0,-3457" x:Name="Ball90" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1370,4280,0,-3567" x:Name="Ball100" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,4565,0,-3852" x:Name="Ball142" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-400,4170,0,-3457" x:Name="Ball97" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-620,4370,0,-3657" x:Name="Ball119" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-620,4280,0,-3567" x:Name="Ball107" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1240,4560,0,-3847" x:Name="Ball138" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1260,4280,0,-3567" x:Name="Ball101" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-520,4370,0,-3657" x:Name="Ball120" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1260,4470,0,-3757" x:Name="Ball125" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,4470,0,-3757" x:Name="Ball129" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1470,4280,0,-3567" x:Name="Ball99" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-295,4170,0,-3457" x:Name="Ball98" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1345,4670,0,-3957" x:Name="Ball149" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,4370,0,-3657" x:Name="Ball116" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1040,4170,0,-3457" x:Name="Ball91" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1140,4370,0,-3657" x:Name="Ball114" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1040,4470,0,-3757" x:Name="Ball127" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-725,4560,0,-3847" x:Name="Ball143" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-325,4370,0,-3657" x:Name="Ball122" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,4170,0,-3457" x:Name="Ball93" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-490,4170,0,-3457" x:Name="Ball96" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1515,4170,0,-3457" x:Name="Ball86" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1140,4280,0,-3567" x:Name="Ball102" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-725,4280,0,-3567" x:Name="Ball106" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-295,4470,0,-3757" x:Name="Ball134" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-620,4470,0,-3757" x:Name="Ball131" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-430,4280,0,-3567" x:Name="Ball109" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1395,4370,0,-3657" x:Name="Ball112" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-520,4565,0,-3852" x:Name="Ball145" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1140,4565,0,-3852" x:Name="Ball139" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1450,4470,0,-3757" x:Name="Ball123" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1240,4170,0,-3457" x:Name="Ball89" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1420,4170,0,-3457" x:Name="Ball87" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-945,4565,0,-3852" x:Name="Ball141" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-1470,4670,0,-3957" x:Name="Ball148" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-590,4170,0,-3457" x:Name="Ball95" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-725,4370,0,-3657" x:Name="Ball118" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-840,4280,0,-3567" x:Name="Ball105" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+                <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="-400,4470,0,-3757" x:Name="Ball133" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png"/>
+            </Grid>
+            <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="65" Margin="320,730,0,-27" Stroke="Black" VerticalAlignment="Top" Width="388"/>
+            <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="14,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="1332" RenderTransformOrigin="0.5,0.5" x:Name="TopLine">
+                <Rectangle.RenderTransform>
+                    <CompositeTransform ScaleY="-1"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="487,740,0,-27" x:Name="CurrentBall" RenderTransformOrigin="0.482,0.04" Source="Assets/GreenBall.png"/>
+            <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="542,740,0,-27" x:Name="NextBall" RenderTransformOrigin="0.482,0.04" Source="Assets/GreenBall.png"/>
+            <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="900,940,0,-227" x:Name="BlueBall" RenderTransformOrigin="0.482,0.04" Source="Assets/BlueBall.png" Tag="1"/>
+            <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="970,1065,0,-352" x:Name="YelloBall" RenderTransformOrigin="0.482,0.04" Source="Assets/YelloBall.png" Tag="4"/>
+            <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="855,1105,0,-392" x:Name="RedBall" RenderTransformOrigin="0.482,0.04" Source="Assets/RedBall.png" Tag="2"/>
+            <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="1170,1030,0,-317" x:Name="PinkBall" RenderTransformOrigin="0.482,0.04" Source="Assets/PinkBall.png" Tag="5"/>
+            <Image  HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" Margin="1065,1125,0,-412" x:Name="GreenBall" RenderTransformOrigin="0.482,0.04" Source="Assets/GreenBall.png" Tag="3"/>
+        </Grid>
+        <Rectangle x:Name="L2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="716" Margin="1014,97,0,-45" Stroke="Black" VerticalAlignment="Top" Width="10" Visibility="Collapsed"/>
+        <TextBlock x:Name="pageTitle" Text="Bouncing Ball" HorizontalAlignment="Left" VerticalAlignment="Top" Height="56" FontSize="44" TextAlignment="Center" Margin="30,27,0,0" />
+        <TextBlock x:Name="a" HorizontalAlignment="Right" VerticalAlignment="Top" Height="56" FontSize="44" TextAlignment="Right" Margin="0,27,50,0" />
+
+        <Grid x:Name="PauseScreen" Background="#DF000000">
+            <Grid x:Name="grid" Background="{StaticResource ApplicationPageBackgroundThemeBrush}" Height="300">
+                <TextBlock x:Name="lblCaption" Margin="50,25,50,0" TextWrapping="Wrap" Text="Hello, this is Bouncing Balls game. In this game you have to remove 2 or more balls of same color before they reach to bottom by time." FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Top" FontWeight="Light"/>
+                <Button x:Name="btnNewGame" Content="New Game" HorizontalAlignment="Right" Height="60" Margin="0,0,50,25" VerticalAlignment="Bottom" Width="250" FontSize="20" TabIndex="0"/>
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="ErrorScreen" Background="#DF000000" Visibility="Collapsed">
+            <Grid x:Name="grid2" Background="{StaticResource ApplicationPageBackgroundThemeBrush}" Height="200">
+                <TextBlock x:Name="lblCaption2" Margin="50,25,50,0" TextWrapping="Wrap" Text="GAME PAUSED&#x0a;The current layout is not compatible with Bouncing Ball." FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Top" FontWeight="Light"/>
+            </Grid>
+        </Grid>
+
+
+
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="lblCaption">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Thickness>20,25,20,-12</Thickness>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <DoubleAnimation Duration="0" To="26" Storyboard.TargetProperty="(TextBlock.FontSize)" Storyboard.TargetName="lblCaption" d:IsOptimized="True"/>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="lblCaption2">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Thickness>20,25,20,-12</Thickness>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <DoubleAnimation Duration="0" To="26" Storyboard.TargetProperty="(TextBlock.FontSize)" Storyboard.TargetName="lblCaption2" d:IsOptimized="True"/>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="a">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Collapsed</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="Grid1">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Collapsed</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="PauseScreen">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Collapsed</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="a">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Collapsed</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="Grid1">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Collapsed</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="PauseScreen">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Collapsed</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="Filled">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="Grid1">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Thickness>0</Thickness>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+
+                <!-- The back button and title have different styles when snapped -->
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+

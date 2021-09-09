@@ -1,0 +1,468 @@
+/*1352820557,178142527*/
+
+.uiStars{display:inline-block;position:relative;vertical-align:middle}
+.uiStars i{display:inline-block;height:11px;width:11px}
+.uiStars .emptyStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -102px}
+.uiStars .onefourthStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -138px}
+.uiStars .halfStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -126px}
+.uiStars .threefourthsStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -150px}
+.uiStars .fullStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -114px}
+.largeStarRating .uiStars i{height:17px;width:17px}
+.largeStarRating .uiStars .emptyStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 0}
+.largeStarRating .uiStars .onefourthStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -54px}
+.largeStarRating .uiStars .halfStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -36px}
+.largeStarRating .uiStars .threefourthsStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -72px}
+.largeStarRating .uiStars .fullStar{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -18px}
+.stars_breakdown .title{border-bottom:1px solid #3a3a3a;padding-bottom:5px;margin-bottom:6px}
+.stars_breakdown .gray_bar{margin-left:4px;margin-right:4px;background:#3b3b3b;height:8px}
+.stars_breakdown .white_bar{background:white;height:8px}
+.stars_breakdown .uiStarWhite{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-repeat:no-repeat;background-size:auto;background-position:0 -90px;display:inline-block;height:11px;width:11px}
+.stars_breakdown .stars{padding-top:1px;text-align:right}
+.stars_breakdown table{border-spacing:0}
+.stars_breakdown td{padding:0}
+.stars_breakdown .star_number{text-shadow:0 0 1px black}
+.app_center #contentCol{line-height:15px;min-height:700px}
+.app_center #content #contentCol{border-left:0 none}
+.app_center #contentCol #contentArea{background-color:transparent;padding:0;margin:20px 0 0 0;width:800px}
+.app_center #content #mainContainer{border-right:0 none;margin-top:10px}
+.app_center, .app_center #pageFooter #contentCurve, .app_center #pageFooter #footerContainer{background:#e7ebf2;border:0 none}
+.app_center #contentCol .appsArea{position:relative;width:800px}
+.appsListArea .appsListAreaHeader{background-color:#fff;height:150px;margin-bottom:20px;padding-right:3px}
+.appsListAreaHeader.clickableHero{height:183px}
+.appsListAreaHeader .middle{padding-left:4px;padding-right:4px}
+.appsListAreaHeader .timelineTitle{float:left;margin-top:-23px;width:592px}
+.appsListAreaHeader .timelineTitle .img{float:left}
+.app_center #contentCol{background:none;padding-top:0}
+.app_center #pagelet_app_center_footer_content #pageFooter{width:auto}
+.app_center .loading_indicator{width:32px;height:34px;margin:auto;position:relative;top:200px;display:none}
+.app_center .async_saving .loading_indicator{display:block}
+.app_center .async_saving .middle_area_content{display:none}
+.app_center #contentCol .platformFilter{align:right;margin-left:2px;margin-right:0;padding-right:0}
+.appCenterBox{border-color:#c4cce0;border-radius:3px;border-style:solid;border-width:1px;box-shadow:0 1px 0 0 #d9dfea;padding:4px}
+.app_center #contentCol .apps_list{background-color:#fff;border-bottom-width:2px;border-color:#c4cce0;border-radius:3px;border-style:solid;border-width:1px;box-shadow:0 1px 0 0 #d9dfea;padding-bottom:10px;width:388px}
+.app_center #contentCol .apps_list .topBorder{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yz/x/ELW8FjnbiZf.png);background-repeat:no-repeat;background-size:auto;background-position:-412px -53px;height:3px}
+.app_center #contentCol .apps_list .uiHeader{background-color:#fff;border-bottom-width:0;border-top:none;padding:0}
+.appPlatforms{bottom:0;height:23px;position:absolute;left:0}
+.appsListAreaBody{margin:0 0 20px 0}
+.appsListDescription{background-color:#fff;border:1px solid #c4cce0;border-bottom:0;color:grey;margin-top:-1px;width:588px}
+.appsListDescription.appsListDescriptionWithoutTabs{border-top-left-radius:3px;border-top-right-radius:3px;margin-top:0}
+.appsListHeader{border-bottom:1px solid #f2f2f2;padding:10px}
+.appsListHeader .advancedOption{text-align:right}
+.appsListHeader .advancedOptionLabel{display:inline-block;vertical-align:middle;line-height:115%}
+.appsListHeader .uiHeader{border-bottom:0;margin:0}
+.appsListHeader .seeall{font-weight:bold}
+.appsListItem, .appsListSearchItem, .friendsUsingApplist .uiListItem.lastChild .appsListItem{border-bottom:1px solid #f2f2f2;height:100px;padding:10px}
+.uiListItem.lastChild .appsListItem, .uiListItem.lastChild .appsListSearchItem, .friendsUsingApplist.lastChild .uiListItem.lastChild .appsListItem{border-bottom:none;padding-bottom:0}
+.appsListItem .description{height:32px;overflow:hidden}
+.appsListItem .description a{color:#333}
+.appsListItem .info .loading, .appsListSearchItem .info .loading{position:absolute;top:0;right:-5px}
+.friendsUsingApplist .appsListItem{width:368px}
+.friendsUsingApplist .appsListItem .description{margin-top:10px}
+.appsListStyleSeeAll .appsListItem{width:568px}
+.appsListItem .header, .appsListSearchItem .header{margin-bottom:5px}
+.appsListItem .appName, .appsListSearchItem .appName{position:relative}
+.appsListItem .appFeedbackMenu, .appsListItem.async_saving:hover .appFeedbackMenu{display:none;right:0;position:absolute}
+.appsListItem .appFeedbackMenu.selected, .appsListItem:hover .appFeedbackMenu{display:inline-block}
+.app_center .uiMenuXItem .itemLabel{max-width:none}
+.appsListItem .logo, .appsListSearchItem .logo{float:left;height:100px;position:relative;width:155px}
+.appsListItem .info, .appsListSearchItem .info{padding-left:5px;position:relative;vertical-align:text-top}
+.appsListStyle .appsListItem .info{float:left;width:203px}
+.app_center .grayLink a{color:gray}
+.app_center.show_bqs .app_center_debug_bqs{display:inline-block}
+.app_center_debug_bqs{display:none}
+.appCenterSmallCuratedSlot{width:180px;background-color:#fff;margin-bottom:20px}
+.appCenterSmallCuratedSlot .img{height:115px}
+.appCenterSmallCuratedSlot .caption{margin-left:2px}
+.appCenterMediumCuratedSlot{display:inline-block;margin-left:4px;height:150px;width:194px;color:#fff;font-family:helvetica;font-size:15px;font-weight:bold;position:relative}
+.clickableHero .appCenterMediumCuratedSlot{margin-bottom:33px}
+.appCenterMediumCuratedSlot .text{display:inline-block;width:100%;vertical-align:middle;text-align:center;line-height:normal}
+.appCenterMediumCuratedSlot .textArea{position:absolute;bottom:0;line-height:40px;width:146px;margin-left:24px}
+.appCenterLargeCuratedSlot{display:inline-block}
+.appCenterLargeCuratedSlot .img{height:150px;width:394px}
+.appCenterMobileCuratedSlot{display:inline-block}
+.appCenterMobileCuratedImg{height:85px;width:136px}
+.app_center .leftNavTitle a{color:#333;font-weight:bold;font-size:18px;font-family:helvetica}
+.app_center #sideNav{margin-top:15px}
+.app_center #leftCol .uiHeaderNav{border:none;padding:4px 6px 9px 0}
+.app_center #leftCol .uiHeaderNav h4{font-weight:normal;font-size:9px}
+.app_center .uiSideNav .item, .app_center .uiSideNav .subitem{border-bottom:none;color:#3b5998;font-size:11px;line-height:26px;padding:0 20px 0 28px}
+.app_center .uiSideNav .subitem{padding-left:54px}
+.app_center .uiSideNav .loading .subitem, .app_center .uiSideNav .loading .item, .app_center .uiSideNav .sideNavItem .loading .subitem{background-color:transparent}
+.app_center .uiSideNav .item:hover, .app_center .uiSideNav .item:active, .app_center .uiSideNav .item:focus, .app_center .uiSideNav .subitem:hover, .app_center .uiSideNav .subitem:active, .app_center .uiSideNav .subitem:focus{background-color:transparent;color:#3b5998;font-weight:normal;text-decoration:none}
+.app_center .uiSideNav .selectedItem .item, .app_center .uiSideNav .selectedItem .item:hover, .app_center .uiSideNav ul .selectedItem .subitem, .app_center .uiSideNav ul .selectedItem .subitem:hover{background-color:transparent;font-weight:bold;text-decoration:none}
+.app_center .uiSideNav .sideNavItem .imgWrap{height:20px;margin-top:3px;margin-left:-28px;overflow:hidden;width:20px}
+.app_center .uiSideNav .imgWrap .img{margin-left:-20px}
+.app_center .divider{margin:12px 0;height:2px;background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yj/x/zcuBjX5brRF.png);background-repeat:no-repeat;background-size:auto;background-position:0 -151px}
+.app_center .uiSideNav .item:hover .imgWrap .img, .app_center .uiSideNav .item:active .imgWrap .img, .app_center .uiSideNav .item:focus .imgWrap .img, .app_center .uiSideNav .selectedItem .item .imgWrap .img, .app_center .uiSideNav .subitem:hover .imgWrap .img, .app_center .uiSideNav .subitem:active .imgWrap .img, .app_center .uiSideNav .subitem:focus .imgWrap .img, .app_center .uiSideNav .appcenter_subitem.selectedItem .subitem .imgWrap .img{margin-left:0}
+.app_center .appcenterLogo{margin-top:2px}
+#leftCol.fixed{position:fixed;top:48px}
+.tinyViewport #leftCol.fixed{position:static}
+.appCenterRightColumn{margin-left:20px;width:190px}
+.appCenterRightColumn .region{padding-left:6px;margin-top:4px}
+#app_center_list_right_column.fixed{position:fixed;margin-left:0}
+.appCenterCategoryBanner{background-color:#fff;display:inline-block;margin-bottom:20px;color:#3d5e96;font-family:helvetica;height:68px;line-height:normal;width:790px}
+.appCenterCategoryBanner .img{float:left;height:72px;width:72px}
+.appCenterCategoryBanner .description{background-color:#f2f2f2;height:60px;padding-top:8px;padding-left:10px;color:#333}
+.appCenterCategoryBanner .parentCategory{font-size:20px}
+.appCenterCategoryBanner .has_top_category .category{top:0}
+.appCenterCategoryBanner .category{font-size:30px;line-height:30px;position:relative;top:12px}
+.app_center #contentCol .appsArea .appsListSeeAll .appsListStyleRecommended{float:left;width:760px;height:1205px;padding:12px 14px 0 14px}
+.app_center .appsListSeeAll .apps_list .uiHeaderSection{margin-bottom:15px}
+.app_center #contentCol .appsListSeeAll .appsListStyleSeeAll{border-top-left-radius:0;border-top-right-radius:0;border-top:0;float:left;margin:0;padding-bottom:0;width:588px}
+.app_center #contentCol .appsListSeeAll .appsListStyleSeeAll .uiStars{margin-top:0}
+.app_center #contentCol .appsListSeeAll .appsListStyleSeeAll .logo{position:relative}
+.app_center #contentCol .appsListSeeAll .appsListStyleSeeAll .logo .appImg{float:left;height:100px;width:155px}
+.app_center #contentCol .appsListSeeAll .appsListStyleSeeAll .appInfo{padding-left:10px;padding-top:0;width:394px}
+.app_center #contentCol .appsListSeeAll .appsListStyleSeeAll .appInfo
+.description{padding-top:10px}
+.app_center #contentCol .appsListSeeAll .appsListStyleSeeAll .uiMorePager{padding-top:0}
+.app_center #contentCol .appsListStyleSeeAll .appPlatforms{bottom:0;height:23px;position:absolute;left:0}
+.appsListStyleSeeAll .appCategories{margin-top:5px}
+.appCenterPlatforms, .appCenterPlatformMenu{font-size:11px;height:27px;line-height:26px;margin-top:20px}
+.appCenterPlatforms a, .appCenterPlatforms a:hover{color:#000;text-decoration:none}
+.appCenterPlatforms .platformButton{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yo/x/NtxZOu14K1s.png);background-position:0 189px;float:left;height:27px;padding:0 8px;position:relative}
+.appCenterPlatforms a .platformButton:before{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yo/x/NtxZOu14K1s.png);background-position:bottom left;content:"";height:27px;left:0;position:absolute;width:1px}
+.appCenterPlatforms a:first-child .platformButton:before, .appCenterPlatforms a:last-child .platformButton:after{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yo/x/NtxZOu14K1s.png);background-position:0 162px;content:"";height:27px;position:absolute;width:3px}
+.appCenterPlatforms a:first-child .platformButton:before{background-position:0 162px;left:-3px}
+.appCenterPlatforms a:last-child .platformButton:after{background-position:-97px 162px;right:-3px}
+.appCenterPlatforms .platformButton:hover{background-position:0 135px}
+.appCenterPlatforms a:hover:first-child .platformButton:before{background-position:0 108px}
+.appCenterPlatforms a:hover:last-child .platformButton:after{background-position:-97px 108px}
+.appCenterPlatforms .platformButton.selected{background-position:0 81px;text-shadow:#fff 0 1px 0}
+.appCenterPlatforms a:first-child .platformButton.selected:before{background-position:0 54px}
+.appCenterPlatforms a:last-child .platformButton.selected:after{background-position:-97px 54px}
+.appCenterPlatformMenu .openToggler .uiPopoverButton .uiButtonText{color:#000}
+.appCenterPlatformMenu .uiButtonText{font-weight:normal;margin-left:16px}
+.app_center .appCenterPlatformMenu .openToggler .uiButton.uiPopoverButton, .app_center .appCenterPlatformMenu .openToggler .uiPopoverButton.uiPopoverButtonWithChevron, .app_center .appCenterPlatformMenu .uiPopoverButton{background-color:transparent;background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/y5/x/LKi-hv3mXyk.png);background-position:right top;border:1px solid #c4cce0;border-radius:3px;box-shadow:none;color:#000;height:18px;min-width:125px;padding-top:4px;text-align:left;text-decoration:none}
+.app_center .uiMenuXBorder{border:1px solid #c4cce0;border-bottom:2px solid #c4cce0;border-bottom-left-radius:3px;border-bottom-right-radius:3px}
+.appCenterTab{background:-moz-linear-gradient(#f3f4f7, #f0f1f4);border:1px solid #c4cce0;border-top-left-radius:3px;border-top-right-radius:3px;box-shadow:inset 0 1px 0 #f9f9fa;height:29px;width:588px}
+.appCenterTab a, .appCenterTab .singleTab{display:block;float:left}
+.appCenterTab .singleTab{border-right:1px solid #c4cce0}
+.appCenterTab .singleTab.selected{background-color:#fff;border-left:1px solid #c4cce0;border-top:1px solid #c4cce0;border-top-left-radius:3px;border-top-right-radius:3px;margin-top:-2px;margin-left:-1px;padding-top:2px}
+.appCenterTab .tabLabel{padding:7px 10px}
+.appCenterTab .singleTab.selected .tabLabel{padding:6px 10px 8px 10px}
+.appCenterTab a:hover .singleTab{background:-moz-linear-gradient(#e7ebf2, #e4e8f0);box-shadow:inset 0 1px 0 #ecf0f6}
+.appCenterTab a:hover:first-child .singleTab{border-top-left-radius:3px}
+.appCenterSearchBar{margin-top:18px;position:relative}
+.appCenterSearchBar form{left:-3px;position:absolute;top:-3px}
+.appCenterSearchBar input{width:120px}
+#appCenterTypeaheadResultContainer{width:250px}
+#appCenterTypeaheadResultContainer li a{text-decoration:none}
+.appCenterSearchInput{background:#fff;border:0;border-top:1px solid #ededed;display:inline-block;padding:6px 3px 5px 3px;position:relative}
+.appCenterSearchInput input{border:0;margin-left:25px;outline:none;padding:1px 3px 2px 2px}
+.appCenterSearchInput button{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yj/x/zcuBjX5brRF.png);background-repeat:no-repeat;background-size:auto;background-position:-93px -47px;background-color:#fff;border:0;cursor:pointer;display:block;height:20px;padding:0;position:absolute;left:2px;top:5px;width:20px}
+._1--{position:relative}
+._1-_{text-align:center}
+._1_0{display:inline-block;margin-top:10px}
+._1_1{background:#3b5998;border-radius:4px;display:block;height:8px;opacity:.5;width:8px}
+._2xp ._1_1{opacity:1}
+.appInfoArea, .bannerPreview, .suggestedAppsArea{width:798px;overflow:hidden;background:white;border:1px solid #c4cde0;border-radius:3px;border-bottom-width:2px}
+.suggestedAppsArea{margin-top:30px;margin-bottom:230px}
+.appInfoArea .content_section{position:relative;margin-top:-70px}
+.appInfoArea .header_section{padding-bottom:4px;padding-left:19px;padding-right:19px;height:130px}
+.appInfoArea .header_section .app_logo{background:white;padding:4px;width:128px;height:128px;box-shadow:0 1px 5px rgba(0, 0, 0, .3)}
+.appInfoArea .header_section .app_logo img{display:block}
+.appInfoArea .header_section .app_summary{position:absolute;left:150px;top:65px;padding:22px 0 0 20px}
+.appInfoArea .header_section .app_summary .uiStars{position:relative;top:9px}
+.appInfoArea .content_section .border_top{border-top:1px solid #e5e5e5}
+.appInfoArea .content_section .border_left{border-left:1px solid #e5e5e5}
+.appInfoArea .content_section .border_bottom{border-bottom:1px solid #e5e5e5}
+.appInfoArea .similar_apps_section{padding:20px;overflow:auto}
+.appInfoArea .next_section{margin-top:15px}
+.appInfoArea .app_cover_pic{overflow:hidden;width:798px}
+.appInfoArea .app_cover_pic .img{border-top-left-radius:4px;border-top-right-radius:4px;display:block;height:150px;margin-left:-1px;width:800px}
+.appInfoArea .app_summary .app_name{font-family:helvetica;font-size:20px;font-weight:bold}
+.appInfoArea .buttonsBorder{border-left:1px solid #e5e5e5;height:90px;left:529px;position:absolute;top:70px}
+.appInfoArea .gdpSection{position:absolute;left:529px;top:105px}
+.appInfoArea .try_button{margin-right:10px}
+.appInfoArea .try_button label, .appInfoArea .try_button .uiButtonText, .appInfoArea .mobile_only label.phone_button, .appInfoArea .mobile_only .phone_button .uiButtonText{width:200px}
+.appInfoArea .has_two_buttons .try_button label, .appInfoArea .has_two_buttons .try_button .uiButtonText{width:auto}
+.appInfoArea .has_two_buttons .phone_button label{width:100px}
+.appInfoArea .try_button, .appInfoArea .phone_button{display:inline-block;margin-bottom:10px}
+.appInfoArea .permissionsPublishActionsBadge{width:226px}
+.appInfoArea .tosPane{margin-bottom:10px;max-width:230px;min-width:0;padding:0}
+.appInfoArea table.detailed_info_section{border-spacing:0;margin-top:20px;width:529px;border-right:1px solid #e5e5e5}
+.appInfoArea table.detailed_info_section td{vertical-align:top;padding:0}
+.appInfoArea .detailed_info_section .category_friends_table{border-spacing:0}
+.appInfoArea .detailed_info_section .category_friends{color:gray;padding:5px 20px;vertical-align:middle}
+.appInfoArea .detailed_info_section .category_friends a{color:gray}
+.appInfoArea .detailed_info_section .category_friends:first-child{white-space:nowrap}
+.appInfoArea .detailed_info_section .info_screenshots{padding:20px}
+.appInfoArea .detailed_info_section .stats_column{padding:20px;padding-top:6px}
+.appInfoArea .detailed_info_section .stats_column_left{width:214px}
+.appInfoArea .tosPane .permissionsPublishActionsBadge{margin-bottom:15px}
+.appInfoArea .tosPane .sectionHeader{padding-top:0;font-size:11px;font-weight:normal}
+.appInfoArea .gdpSection .gdpLinkSection{width:228px;margin:20px 20px 6px 20px}
+.appInfoArea .gdp_right_container div:first-child{margin-top:0}
+.appInfoArea .tosPane, .appInfoArea .tosPane .fcb, .appInfoArea .tosPane .legalese, .appInfoArea .tosPane .sectionHeader, .appInfoArea .tosPane .sectionContent, .appInfoArea .tosPane .sectionContent .bulletlist, .appInfoArea .gdpBlurb, .appInfoArea .trial_info{color:#888}
+.appInfoArea .tosPane .legalese{font-size:11px;line-height:15px;float:none}
+.appInfoArea .sectionHeaderPadding{padding-left:20px}
+.suggestedAppsArea .title{margin-left:10px;margin-top:10px;margin-bottom:10px}
+.async_saving .appInfoArea, .async_saving .suggestedAppsArea{display:none}
+.bannerPreview{margin-top:15px}
+.bannerPreview > div{padding:7px}
+.achievementGridItem{width:243px;border:1px solid #f2f2f2}
+#contentCol #my_apps .apps_list{display:inline-block;padding-bottom:0;width:auto}
+#my_apps .appsListHeader a{top:0}
+#my_apps .appsListItem{border-right:1px solid #f2f2f2;height:auto;vertical-align:top;width:378px}
+#my_apps .appsListItem .showOnHover{visibility:hidden}
+#my_apps .appsListItem:hover .showOnHover{visibility:visible}
+#my_apps .appDeleted .appInfoBlock, #my_apps .appDeletedMessage{display:none;text-align:center}
+#my_apps .appDeleted .appDeletedMessage{display:block;width:100%;padding:10px 0 10px 0}
+#my_apps .appDeleted .middle{display:inline-block;vertical-align:middle}
+#my_apps .noMoreApps{border-top:1px solid #f2f2f2;margin-top:-1px}
+.app_center_request_box{width:586px;overflow:auto;background:white;border:1px solid #c4cde0;border-radius:3px;border-bottom-width:2px}
+.app_center .appRequestBodyNewA div{width:420px}
+.appCenterRequestsArea
+.appCenterInvite, .appCenterRequests .appRequests{width:586px;overflow:auto;background:white;border:1px solid #c4cde0;border-radius:3px;border-bottom-width:2px;margin-bottom:20px}
+.appCenterRequests .appRequests .header, .appCenterInvite .header{background-color:#f1f1f1;padding:5px;margin:4px 4px 0}
+.appCenterRequests .appRequests .showAll{width:100%}
+.appCenterRequest, .appCenterInviteApp{padding:5px 0 10px 10px;border-top:solid 1px #e5e5e5}
+.appCenterRequests li:first-child .appCenterRequest{border-top:none}
+.appCenterInviteApp:first-child{padding-top:10px;border-top:none}
+.appCenterInviteApp .requestIgnoredBox, .appCenterRequests .requestIgnoredBox{margin-right:5px}
+.appCenterRequest .requestIgnoredBox{margin-right:15px}
+.appCenterInvite .inviteText a{color:#000}
+.appCenterInviteApp .noAppCenterImage{min-width:155px}
+.appCenterInviteApp .noAppCenterImage .img{margin:0 auto}
+.appCenterInviteApp .info{width:100%;position:relative}
+.appCenterInviteApp .info .buttons{top:0;right:0;position:absolute}
+.appCenterInviteApp .description{padding:5px 20px 0 0}
+.appCenterInviteApp .buttons{margin:0 20px}
+.appCenterRequest .buttons{margin:11px 20px 0 20px}
+.appCenterRequests .ignoreAll{display:inline-block}
+.appCenterRequest .message{width:399px}
+.appCenterInvites .grayText a, .appCenterInvites .grayText, .appCenterRequests .grayText a, .appCenterRequests .grayText{color:#a2a2a2}
+.appScreenshotThumbnails{min-width:489px}
+.appScreenshotThumbnails .croppedImg{background-position:center;background-repeat:no-repeat;overflow:hidden}
+.appScreenshotThumbnails .largeView .croppedImg{height:350px;width:235px}
+.appScreenshotThumbnails.allLandscapes .largeView .croppedImg{height:240px;width:315px}
+.appScreenshotThumbnails .smallViewOne .croppedImg, .appScreenshotThumbnails .smallViewTwo .croppedImg{display:block;height:165px;width:235px}
+.appScreenshotThumbnails.allLandscapes .smallViewOne .croppedImg, .appScreenshotThumbnails.allLandscapes .smallViewTwo .croppedImg{height:110px;width:155px}
+.appScreenshotThumbnails .largeView{box-shadow:1px 1px 5px rgba(0, 0, 0, .3);display:inline-block}
+.appScreenshotThumbnails .twoSmallViews{display:inline-block;margin-left:19px}
+.appScreenshotThumbnails .smallViewOne{box-shadow:1px 1px 5px rgba(0, 0, 0, .3)}
+.appScreenshotThumbnails .smallViewTwo{box-shadow:1px 1px 5px rgba(0, 0, 0, .3);margin-top:20px}
+.appScreenshotThumbnails .largeView:hover, .appScreenshotThumbnails .smallViewOne:hover, .appScreenshotThumbnails .smallViewTwo:hover{box-shadow:1px 1px 5px rgba(0, 0, 0, .5);cursor:pointer}
+.usersApps{width:190px;overflow:auto;background:white;border:1px solid #c4cde0;border-radius:3px;border-bottom-width:2px;min-height:220px;padding-bottom:10px}
+.usersApps .header{border-bottom:solid 1px #e5e5e5;padding:10px}
+.usersApps .userApp{padding:10px 10px 0}
+.appRequests .uiMorePager .uiMorePagerPrimary:hover{background-color:#fff}
+.usersApps .grayText{color:#a2a2a2}
+.usersApps .noResults{margin:10px}
+._2_e{position:relative}
+._2_f{width:658px}
+._2_g{float:left;margin:0 5px 0 4px;overflow:hidden;white-space:nowrap;width:155px}
+._2_g a{display:block;font-weight:bold;position:relative}
+._2_h{display:block;opacity:.4}
+._2xn ._2_h, ._2xm ._2_h{opacity:1}
+._2_i{display:block}
+._2_j, ._2_k, ._2_i{visibility:hidden}
+._2xn ._2_j, ._2xm ._2_j, ._2xn ._2_k, ._2xm ._2_k, ._2xn ._2_i, ._2xm ._2_i{visibility:visible}
+._2_g ._2_l{left:62px;position:absolute;top:34px}
+html ._2_c, html ._2_d{display:block;height:100px;position:absolute;top:0;width:64px}
+._2xm ._2_c, ._2xm ._2_d{visibility:hidden}
+._2_c{left:0}
+._2_d{right:0}
+._2xo._2_c, ._2xo._2_d{cursor:default}
+._2xo._2_c{background:#f2f3f8;border:1px solid #c8cede;border-left:none}
+._2xm ._2xo._2_c{background:none;border:none}
+._2_c span, ._2_d span{background:white;border:1px solid #a6a6a6;box-shadow:0 2px 5px rgba(0, 0, 0, .2);font-weight:bold;padding:0 5px;position:absolute;top:41px}
+._2_c span{right:-4px}
+._2_d span{left:-7px}
+._2xo span{display:none}
+._2xe{border:rgba(255, 255, 255, .1) 1px solid;box-shadow:0 0 20px rgba(0, 0, 0, .7)}
+._2xf{display:inline-block;position:relative;text-align:center}
+._2xg{color:#fff;font-size:13px}
+._2xh ._2xi{display:none}
+._2xj, ._2xk{opacity:.5;position:absolute;margin-top:-22px;top:50%}
+._2xj{left:10px}
+._2xk{right:10px}
+._2xi._2xl{opacity:1.0}
+._14z{display:inline-block;position:relative}
+._14z ._14-{display:none;position:absolute;top:0;z-index:2}
+._14z ._14_{left:0}
+._14z ._150{right:0}
+._14z:hover ._14-{display:inline}
+._3gx{width:394px}
+._2xq{height:100%;position:relative}
+._2xr, ._2xs{float:left}
+._2xt._2xs{margin:0}
+._2xo{display:none}
+._2xu{height:100%;overflow:hidden;position:relative}
+._2xv ._2xn._2xr{visibility:visible}
+._2xv ._2xr{visibility:hidden;position:absolute}
+.profileApprovalRow{position:relative}
+.pendingPostsHeader .uiHeaderTitle{padding:4px 0 5px 4px}
+.profileApprovalRow .uiStreamStory{padding:0}
+.profileApprovalRow .uiStreamMessage, .profileApprovalRow .approvalBody{padding-right:60px}
+.profileApprovalRow .actionButtons{position:absolute;right:0;top:18px}
+.profileApprovalRow .actorName{font-weight:bold}
+.profileApprovalQueueHeaderContainer{border-bottom:3px solid #e2e2e2;padding:4px 5px 6px}
+.profileApprovalQueueHeader{padding-top:4px}
+.profileApprovalQueueTitle{float:left;margin-right:10px;margin-bottom:2px}
+.profileApprovalQueueFilter{float:left}
+.profileApprovalListContainer{padding-left:5px;padding-right:5px}
+.profileApprovalQueueEmptyList{padding-bottom:100px;padding-top:80px;text-align:center}
+.profileApprovalQueueEmptyList .text{color:lightgray;font-size:18px}
+.profileApprovalQueueItemMessage{border-left:2px solid #ccc;color:gray;font-size:11px;margin-top:5px;max-width:85%;padding:3px 3px 3px 7px}
+.fbTimelineLogColumn .fbTimelineNavigationPagelet, .fbTimelineLogLoadingIndicator{display:none}
+.async_saving .fbTimelineLogLoadingIndicator{display:block}
+.fbTimelineLogFilterForm{display:inline}
+.fbTimelineLogMonth div.profile-pagelet-section{margin-bottom:0}
+.fbTimelineLogMonth h3{border-bottom:3px solid #e1e1e1;font-size:15px;line-height:22px}
+.async_saving .fbTimelineLogMonth .uiMorePagerLoader{display:none}
+.async_saving .fbTimelineLogMonth .uiMorePager, .async_saving .fbTimelineLogMonth .uiMorePagerPrimary{display:block}
+.fbTimelineLogHeader{height:50px}
+.tinyViewport .fbTimelineLogHeader .fbTimelineStickyHeader{display:block}
+.fbTimelineSearchError{padding-left:20px}
+.fbTimelineLogFilterSelector .uiMenu{max-height:400px;overflow-y:auto}
+.fbTimelineLogFilterSelector .itemLabel{padding-right:7px}
+.fbTimelinePrivacySelector{background-color:#f2f2f2;border:1px solid;border-bottom:2px solid;border-color:#c9c9c9;border-radius:3px;padding:8px 25px 9px 15px}
+.fbTimelinePrivacySelector .logo{vertical-align:middle;height:30px}
+.fbTimelinePrivacySelector .name{font-size:13px;font-weight:bold}
+.fbTimelinePrivacySelectorBorder{border-left:1px solid #ddd}
+.fbTimelinePendingReview{background-color:#f5f7fa;border:1px solid;border-bottom:2px solid;border-color:#c4cde0;border-radius:3px;padding:12px 15px}
+.fbTimelinePendingReview .title{color:#666;font-size:13px}
+.fbTimelinePendingReview .text{color:gray;font-size:11px}
+.fbTimelinePendingReviewEdWrapper{bottom:-11px;height:144px;overflow:hidden;position:relative;-moz-transition:height .2s ease}
+.fbTimelinePendingReviewEd{background-color:#f4f5f9;background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/y6/x/SfQzmGXJ8Bu.png);background-position:3.8% top;background-repeat:no-repeat;border:1px solid #c4cde0;border-bottom:1px solid #d0d0d2;border-bottom:1px solid rgba(0, 0, 0, .15);border-radius:3px 3px 0 0;box-shadow:0 -8px 8px -8px rgba(0, 0, 0, .15) inset;height:107px;padding:26px 10px 9px 148px;position:relative}
+.fbTimelinePendingReviewEd .text{color:#666;font-size:13px;margin-top:5px}
+.fbTimelinePendingReviewEd .close{position:absolute;right:10px;top:10px}
+.fbTimelineLogBody{margin-bottom:30px}
+.fbTimelineLogStream .profile-pagelet-section{margin-bottom:0}
+.fbTimelineLogStream .uiMorePagerPrimary{border:0}
+.fbTimelineLogTimeNav{padding-bottom:3px}
+.fbTimelineLogColumn .fbTimelineSection{padding:20px 25px 10px}
+.fbTimelineLogColumn .fbTimelineSection .uiMorePager{margin:0 -25px -10px}
+.fbTimelineLogIntroMegaphone{border-radius:3px;margin:10px 0;padding:15px 20px}
+.fbTimelineLogColumn .pendingPostsHeader, .fbTimelineLogColumn .pendingProfileRequestsHeader{background-color:#fff;border-bottom:3px solid #e2e2e2;border-top:0;padding-left:0}
+.fbTimelineLogScrubber .selected ul{display:block}
+.fbTimelineLogScrubber .selected li.selected a{font-weight:bold}
+.fbTimelineLogColumn .fbProfileEditFieldInline{width:480px}
+.fbTimelineLogColumn .fbProfileEditFieldInline .privacyWidget{padding-top:0}
+.fbTimelineLogColumn .fbProfileEditFieldInline .rightCol{padding-left:0;width:41px}
+.fbTimelineLogNuxMegaphoneBody{border-radius:3px 3px 0 0;padding:15px 20px}
+.fbTimelineLogNuxMegaphoneFooter{border-radius:0 0 3px 3px;border-top:0;height:22px;padding:10px 20px 10px 20px;line-height:22px}
+.sp_c1qdh5{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yL/x/MmmFHCK3KAn.png);background-size:auto;background-repeat:no-repeat;display:inline-block;height:11px;width:11px}
+.sx_c692f7{width:17px;height:17px;background-position:-0px -0px}
+.sx_3764a3{width:17px;height:17px;background-position:-0px -18px}
+.sx_49adcf{width:17px;height:17px;background-position:-0px -36px}
+.sx_a03dc0{width:17px;height:17px;background-position:-0px -54px}
+.sx_068bd8{width:17px;height:17px;background-position:-0px -72px}
+.sx_d8b6ac{background-position:-0px -90px}
+.sx_91e11b{background-position:-0px -102px}
+.sx_742eae{background-position:-0px -114px}
+.sx_b645a1{background-position:-0px -126px}
+.sx_bfe68d{background-position:-0px -138px}
+.sx_ef5771{background-position:-0px -150px}
+ul.timelineAllActivityStream > li{border-color:#e1e1e1}
+.fbStreamTimelineLogTimestamp{color:#999;font-size:10px}
+.fbStreamTimelineLogStory, .fbStreamTimelineGrid{width:100%}
+.fbStreamTimelineLogStory .uiStreamAttachments{margin:0}
+.fbStreamTimelineLogStory .songListContainer{position:relative;top:-1px}
+.fbStreamTimelineLogTimestampContainer{width:45px}
+.fbStreamTimelineLogIconContainer{width:35px}
+.timelineMinistoryGroup .uiStreamStory{padding-right:0}
+.timelineAllActivityStream .timelineMinistoryGroup .logstoryMessage .passiveName{font-weight:normal}
+.timelineAllActivityStream .activityDayHeader{border-top:0;line-height:20px;margin-top:20px}
+.fbTimelineAllActivityStaticSelector{padding-right:4px}
+.fbTimelineAllActivityStorySelector{text-align:left}
+.fbTimelineAllActivityStorySelector .wrap .uiSelectorButton, .fbTimelineAllActivityStorySelector .wrap .uiSelectorButton:active, .fbTimelineAllActivityStorySelector .wrap .uiSelectorButton:focus, .fbTimelineAllActivityStorySelector .wrap .uiSelectorButton:hover, .fbTimelineAllActivityStorySelector .wrap .uiButtonSuppressed:active, .fbTimelineAllActivityStorySelector .wrap .uiButtonSuppressed:focus, .fbTimelineAllActivityStorySelector .wrap .uiButtonSuppressed:hover{background-image:none;height:16px;margin-top:-4px;padding-left:5px;padding-right:5px}
+.fbTimelineAllActivityAudienceSelector .wrap .uiSelectorButton, .fbTimelineAllActivityAudienceSelector .wrap .uiSelectorButton:active, .fbTimelineAllActivityAudienceSelector .wrap .uiSelectorButton:focus, .fbTimelineAllActivityAudienceSelector .wrap .uiSelectorButton:hover, .fbTimelineAllActivityAudienceSelector .wrap .uiButtonSuppressed:active, .fbTimelineAllActivityAudienceSelector .wrap .uiButtonSuppressed:focus, .fbTimelineAllActivityAudienceSelector .wrap .uiButtonSuppressed:hover{background-image:none;margin-top:-4px;padding-right:8px}
+.fbTimelineAllActivityStorySelector .openToggler .uiSelectorButton, .fbTimelineAllActivityStorySelector .openToggler .uiSelectorButton:active, .fbTimelineAllActivityStorySelector .openToggler .uiSelectorButton:focus, .fbTimelineAllActivityStorySelector .openToggler .uiSelectorButton:hover, .fbTimelineAllActivityStorySelector .openToggler .uiButtonSuppressed:active, .fbTimelineAllActivityStorySelector .openToggler .uiButtonSuppressed:focus, .fbTimelineAllActivityStorySelector .openToggler .uiButtonSuppressed:hover, .fbTimelineAllActivityAudienceSelector .openToggler .uiSelectorButton, .fbTimelineAllActivityAudienceSelector .openToggler .uiSelectorButton:active, .fbTimelineAllActivityAudienceSelector .openToggler .uiSelectorButton:focus, .fbTimelineAllActivityAudienceSelector .openToggler .uiSelectorButton:hover, .fbTimelineAllActivityAudienceSelector .openToggler .uiButtonSuppressed:active, .fbTimelineAllActivityAudienceSelector .openToggler .uiButtonSuppressed:focus, .fbTimelineAllActivityAudienceSelector .openToggler .uiButtonSuppressed:hover{background-image:none}
+.logStoryControls .privateAppPrivacyIcon{vertical-align:middle}
+.fbTimelineNewSelectorLogStory .logStoryIcons{width:92px}
+.fbTimelineNewSelectorLogStory .logStoryControls{width:78px}
+.fbTimelineLogStoryControl .fbTimelineNewSelector{margin-left:2px}
+.fbTimelineNewSelector .uiSelectorButton, .fbTimelineNewSelector .uiSelectorButton:active, .fbTimelineNewSelector .uiSelectorButton:focus, .fbTimelineNewSelector .uiSelectorButton:hover{vertical-align:middle;background-color:transparent;background-image:none;padding:1px 18px 1px 3px}
+.fbTimelineNewStorySelector .uiSelectorButton .customimg{margin-left:-3px}
+.fbTimelineNewStorySelector .uiSelectorButton, .fbTimelineNewStorySelector .uiSelectorButton:active, .fbTimelineNewStorySelector .uiSelectorButton:focus, .fbTimelineNewStorySelector .uiSelectorButton:hover, .uiStreamMinistoryGroup:hover .fbTimelineNewStorySelector
+.uiSelectorButton:hover, .uiStreamStory:hover .fbTimelineNewStorySelector .uiSelectorButton:hover{padding:1px 14px 1px 4px}
+.fbTimelineNewSelectorLogStory .fbTimelineAllActivityStaticSelector{vertical-align:middle;padding-right:12px}
+.fbTimelineNewSelectorLogStory .fbTimelineAllActivityStaticSelector .img{vertical-align:middle}
+.uiStreamMinistoryGroup:hover .fbTimelineNewSelector .uiSelectorButton, .uiStreamStory:hover .fbTimelineNewSelector .uiSelectorButton{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yz/x/ELW8FjnbiZf.png);background-repeat:no-repeat;background-size:auto;background-position:-817px -7px;border:1px solid #ddd}
+.uiStreamMinistoryGroup:hover .fbTimelineNewSelector .uiSelectorButton:hover, .uiStreamStory:hover .fbTimelineNewSelector .uiSelectorButton:hover{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yK/x/nDEHv4nTejR.png);background-repeat:no-repeat;background-size:auto;background-position:-466px -492px;border:1px solid #999}
+.uiStreamMinistoryGroup:hover .fbTimelineNewSelector .openToggler
+.uiSelectorButton, .uiStreamStory:hover .fbTimelineNewSelector .openToggler .uiSelectorButton, .fbTimelineNewSelector .openToggler .uiSelectorButton{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yK/x/nDEHv4nTejR.png);background-repeat:no-repeat;background-size:auto;background-position:-466px -149px;background-color:#6d84b4;border:1px solid #3b5998;border-bottom-color:#6d84b4;box-shadow:none}
+.timelineAllActivityStream .timelineMinistoryGroup .logstoryMessage{color:#333}
+.timelineAllActivityStream .timelineMinistoryGroup{padding:7px 0 3px 0}
+.timelineMinistoryGroup .uiStreamStory{margin-bottom:0}
+.timelineLogStoryShowAll{padding:10px 0 5px 85px}
+.logStoryDescription{width:340px;padding-right:20px}
+.logStoryIcons{text-align:right;width:100px}
+.logStoryContent{width:225px}
+.logStoryControls{width:70px}
+.logStoryContent .uiAttachmentDesc{display:none}
+.logStoryContent .uiStreamAttachments .external .img{width:30px;height:30px}
+.logStoryContent .uiVideoThumb .img{max-width:80px;max-height:80px}
+.uiMenuXItem .staticAnchor{color:#999}
+.presenceIndicator{display:inline-block}
+.presenceIndicator i{display:inline-block;width:7px;height:14px}
+.presenceIndicator .online{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yK/x/nDEHv4nTejR.png);background-repeat:no-repeat;background-size:auto;background-position:-494px -603px}
+.presenceIndicator .mobile{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yK/x/nDEHv4nTejR.png);background-repeat:no-repeat;background-size:auto;background-position:-292px -658px;height:12px;width:8px}
+.presenceIndicator .offline{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/y5/x/u4m9_2NeiU2.png);background-repeat:no-repeat;background-size:auto;background-position:-300px 0}
+.uiStreamMinistoryGroup{padding:10px 0 11px 60px}
+.uiStreamMinistoryGroup .uiStreamStory{padding-top:1px}
+.uiStreamMinistoryGroup .header{color:#aaa;padding:2px 0 8px}
+.uiStreamMinistoryGroup .uiStreamStory .ministoryMessage{color:#333}
+.uiStreamMinistoryGroup .uiStreamStory .ministoryInlineMessage{display:inline}
+.uiStreamMinistoryGroup .showSimilar{display:block;margin:0 2px 8px 22px}
+.uiStreamMinistoryGroup .showSimilarAjax{display:block;margin:2px 2px 0 22px}
+.uiStreamMinistoryGroup .ministoryUfi{margin-bottom:6px}
+.uiStream .uiStreamMinistory .uiStreamHide{margin-top:0}
+.ogAggregatedTableFacepileSmall{margin-right:-2px;padding-bottom:1px;padding-top:1px}
+.ogAggregatedTableFacepileMedium{margin:5px -2px 5px 0}
+.ogAggregatedTableAttachment{margin-top:-6px;margin-bottom:-5px}
+.ogAggregatedTableContainer .ogAggregatedTableNormalItemContent, .ogAggregatedTableRowObject, .ogAggregatedTableRowDescription{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ogAggregatedTableContainer .ogAggregatedTableNormalItemContent{display:block;height:18px;margin-left:2px;margin-top:6px}
+.ogAggregatedTableContainer .ogAggregatedTableOneToMany
+.ogAggregatedTableNormalItemContent, .ogAggregatedTableRowDescription{width:376px}
+.ogAggregatedTableContainer .ogAggregatedTableManyToMany
+.ogAggregatedTableNormalItemContent{margin-right:14px;width:256px}
+.ogAggregatedTableRow .srcIcon{margin-bottom:5px;margin-top:5px}
+.ogAggregatedTableRowObject{font-weight:bold;margin-top:6px}
+.ogAggregatedGamesRowLineTwo{color:gray}
+.ogAggregatedTableRowCollapsed, .ogAggregatedTableExpanded .ogAggregatedTableSeeMore{display:none}
+.ogAggregatedTableExpanded .ogAggregatedTableRowCollapsed{display:block}
+.ogAggregatedTableSeeMore{height:18px;padding-top:6px}
+.sp_8hst0l{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/y4/x/ZrlN5UNGthw.png);background-size:auto;background-repeat:no-repeat;display:inline-block;height:13px;width:13px}
+.sx_9a6e21{background-position:-0px -17px}
+.sx_e8c747{width:10px;height:16px;background-position:-0px -0px}
+.sp_dconaq{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yj/x/zcuBjX5brRF.png);background-size:auto;background-repeat:no-repeat;display:inline-block;height:20px;width:40px}
+.sx_8099a1{width:25px;height:150px;background-position:0 0}
+.sx_f9105d{width:25px;height:150px;background-position:-26px 0}
+.sx_22fc19{width:72px;height:72px;background-position:0 -154px}
+.sx_afed01{width:120px;height:2px;background-position:0 -151px}
+.sx_6e2592{background-position:0 -248px}
+.sx_7d0a03{background-position:-41px -248px}
+.sx_3a9bbf{background-position:0 -269px}
+.sx_be0c15{background-position:-41px -269px}
+.sx_ec560f{background-position:0 -374px}
+.sx_25db00{background-position:-41px -290px}
+.sx_ce48f8{background-position:0 -311px}
+.sx_130e14{background-position:-41px -311px}
+.sx_eaf7bf{background-position:0 -332px}
+.sx_5c7105{background-position:-41px -332px}
+.sx_b17948{background-position:0 -353px}
+.sx_aa24ea{background-position:-41px -353px}
+.sx_caca67{background-position:0 -290px}
+.sx_367745{background-position:-41px -227px}
+.sx_052f42{background-position:0 -227px}
+.sx_8058c1{background-position:-73px -196px}
+.sx_dac1dc{background-position:-73px -175px}
+.sx_1b27fa{background-position:-73px -154px}
+.sx_3b5d72{background-position:-52px -126px}
+.sx_6fa800{background-position:-52px -105px}
+.sx_4ec16a{background-position:-52px -84px}
+.sx_8c1968{width:20px;background-position:-93px -47px}
+.sx_0f31fa{background-position:-52px -63px}
+.sx_c5ac6e{background-position:-52px -42px}
+.sx_9ce84f{background-position:-52px -21px}
+.sx_fc6f95{background-position:-52px 0}
+.sx_fb4706{width:22px;height:22px;background-position:-93px -24px}
+.sx_2043f6{width:23px;height:23px;background-position:-93px 0}
+.sx_4a7ec4{width:9px;height:14px;background-position:-102px -68px}
+.selected .sx_4a7ec4{background-position:-93px -68px}
+
+#bootloader_gqdOu { height: 42px; }

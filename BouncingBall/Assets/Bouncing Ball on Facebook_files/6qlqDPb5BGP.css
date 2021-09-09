@@ -1,0 +1,45 @@
+/*1352708274,178142491*/
+
+._5rs #headNav{margin-left:0}
+._5rs #pageNav{float:left}
+._5rt{margin-left:10px}
+._5rt .tinyman{margin-left:1px}
+._5rs #pageNav .tinyman a:after{content:normal}
+._5rs #navAccount{margin-right:8px}
+._5rs #navAccount.openToggler #navAccountLink .menuPulldown, ._5rs #navAccount.openToggler #navAccountLink:hover .menuPulldown{background:none}
+._5rs #navAccountLink .menuPulldown{background-color:none;margin-left:-4px;width:19px}
+._5rs #headNav #jewelContainer .jewelFlyout{left:-298px;width:330px}
+._5rs #headNav #jewelContainer #fbRequestsFlyout{left:-299px}
+._5rs #jewelContainer .fbJewel .beeperNubWrapper{position:relative}
+._5rs #jewelContainer .fbJewel .beeperNubWrapper .beeperNub{left:auto;position:absolute;right:8px}
+._5rs .fbJewel a.jewelButton{background:transparent}
+._5rs .fbJewel a.jewelButton{height:29px;margin:0;width:29px}
+._5rs #jewelContainer .openToggler .jewelButton{border:0}
+._5rs fbJewel .jewelCount{right:0;top:0}
+._5rs .notifNegativeBase #fbNotificationsFlyout{left:-151px}
+._5rs #fbRequestsJewel{margin-right:6px}
+._5rs #fbMessagesJewel{margin-right:3px}
+._5rs .fbJewel a.jewelButton:active, ._5rs .fbJewel a.jewelButton:focus, ._5rs .fbJewel a.jewelButton:hover{background-color:transparent}
+._5rs #fbRequestsJewel a.jewelButton{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png) !important;background-repeat:no-repeat !important;background-size:auto !important;background-position:0 -60px !important}
+._5rs #fbRequestsJewel a.jewelButton:focus, ._5rs #fbRequestsJewel a.jewelButton:hover{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png) !important;background-repeat:no-repeat !important;background-size:auto !important;background-position:0 -30px !important}
+._5rs #fbRequestsJewel a.jewelButton:active, ._5rs #fbRequestsJewel.hasNew a.jewelButton, ._5rs #fbRequestsJewel.openToggler a.jewelButton{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png) !important;background-repeat:no-repeat !important;background-size:auto !important;background-position:0 0 !important}
+._5rs #fbMessagesJewel a.jewelButton{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png) !important;background-repeat:no-repeat !important;background-size:auto !important;background-position:0 -150px !important}
+._5rs #fbMessagesJewel a.jewelButton:focus, ._5rs #fbMessagesJewel a.jewelButton:hover{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png) !important;background-repeat:no-repeat !important;background-size:auto !important;background-position:0 -120px !important}
+._5rs #fbMessagesJewel a.jewelButton:active, ._5rs #fbMessagesJewel.hasNew a.jewelButton, ._5rs #fbMessagesJewel.openToggler a.jewelButton{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png) !important;background-repeat:no-repeat !important;background-size:auto !important;background-position:0 -90px !important}
+._5rs #fbNotificationsJewel a.jewelButton{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png) !important;background-repeat:no-repeat !important;background-size:auto !important;background-position:0 -240px !important}
+._5rs #fbNotificationsJewel a.jewelButton:focus, ._5rs #fbNotificationsJewel a.jewelButton:hover{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png) !important;background-repeat:no-repeat !important;background-size:auto !important;background-position:0 -210px !important}
+._5rs #fbNotificationsJewel a.jewelButton:active, ._5rs #fbNotificationsJewel.hasNew a.jewelButton, ._5rs #fbNotificationsJewel.openToggler a.jewelButton{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png) !important;background-repeat:no-repeat !important;background-size:auto !important;background-position:0 -180px !important}
+.sp_aha2s6{background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v2/yu/x/8Adv_fWfI8j.png);background-size:auto;background-repeat:no-repeat;display:inline-block;height:29px;width:29px}
+.sx_525ffb{background-position:0 0}
+.sx_65e70f{background-position:0 -30px}
+.sx_5cec2d{background-position:0 -60px}
+.sx_00a3c6{background-position:0 -90px}
+.sx_b3c85c{background-position:0 -120px}
+.sx_cfc6a0{background-position:0 -150px}
+.sx_dd078e{background-position:0 -180px}
+.sx_39fe92{background-position:0 -210px}
+.sx_16834e{background-position:0 -240px}
+.create_album_form textarea,
+.create_album_form .inputtext{width:380px}
+
+#bootloader__sW20 { height: 42px; }

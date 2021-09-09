@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DEN_OF_DEVIL</Machine>
+    <WindowsUser>Ajay Raghav</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\BouncingBall.exe">
+      <PackagePath>BouncingBall.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\BouncingBall.pdb">
+      <PackagePath>BouncingBall.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\BlueBall.png">
+      <PackagePath>Assets\BlueBall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\GreenBall.png">
+      <PackagePath>Assets\GreenBall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\PinkBall.png">
+      <PackagePath>Assets\PinkBall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\RedBall.png">
+      <PackagePath>Assets\RedBall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\YelloBall.png">
+      <PackagePath>Assets\YelloBall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

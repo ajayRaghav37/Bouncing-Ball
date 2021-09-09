@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DEN_OF_DEVIL</Machine>
+    <WindowsUser>Ajay Raghav</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>7908D02BDDD8BC378CB144240A2514D4ED923DCDFD5CEFA93DA8E367F0AD6DCB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6f8ad4b7-7f7d-4c2d-9018-27605583ba74_1.0.0.0_neutral__qf3q22rr4h2ce</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6f8ad4b7-7f7d-4c2d-9018-27605583ba74_qf3q22rr4h2ce!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6f8ad4b7-7f7d-4c2d-9018-27605583ba74</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Narayan Rathore</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-27T06:12:35.867</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\BouncingBall.exe">
+      <PackagePath>BouncingBall.exe</PackagePath>
+      <Modified>2012-11-27T08:24:04.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\BouncingBall.pdb">
+      <PackagePath>BouncingBall.pdb</PackagePath>
+      <Modified>2012-11-27T08:24:04.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\BlueBall.png">
+      <PackagePath>Assets\BlueBall.png</PackagePath>
+      <Modified>2012-11-17T10:23:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\GreenBall.png">
+      <PackagePath>Assets\GreenBall.png</PackagePath>
+      <Modified>2012-11-17T10:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-22T19:32:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\PinkBall.png">
+      <PackagePath>Assets\PinkBall.png</PackagePath>
+      <Modified>2012-11-17T10:24:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\RedBall.png">
+      <PackagePath>Assets\RedBall.png</PackagePath>
+      <Modified>2012-11-17T10:24:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-22T19:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-22T19:41:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-22T19:34:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Assets\YelloBall.png">
+      <PackagePath>Assets\YelloBall.png</PackagePath>
+      <Modified>2012-11-17T10:24:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2012-11-22T14:05:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-11-22T14:00:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T10:49:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-11-27T08:23:59.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\BouncingBall\BouncingBall\BouncingBall\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-11-27T05:34:30.768</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
